@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://hoobis.kr/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://hoobis.kr/%ED%9B%84%EB%B9%84%EC%8A%A4%EC%B2%AD%EC%86%8C%EA%B8%B0.html</loc>
+    <lastmod>2026-02-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hoobis.kr/%EC%A0%9C%ED%92%88%EA%B5%AC%EB%A7%A4.html</loc>
+    <lastmod>2026-02-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hoobis.kr/%EA%B3%A0%EA%B0%9D-%EB%A6%AC%EB%B7%B0.html</loc>
+    <lastmod>2026-02-24</lastmod>
+    <priority>0.7</priority>
+  </url>
+</urlset>

@@ -1,15 +1,5 @@
 User-agent: *
-Disallow: /_forgot/id
-Disallow: /_register
-Disallow: /_login
-Disallow: /member/login
-Disallow: /member/join
-Disallow: /terms
-Disallow: /notice
-Disallow: /support
-Disallow: /lang
-Disallow: /contact
-Disallow: /privacy
-Disallow: /abuse
-Sitemap:https://hoobis.kr/user-sitemap
+Allow: /
+
+Sitemap: https://hoobis.kr/sitemap.xml
 #DaumWebMasterTool:1b0f61b33929fc4a51bbd84795b4f205c3009610d47cf6c2353e7bcdfdcb480e:75mq2lfM9067OD5htqd7fg==
