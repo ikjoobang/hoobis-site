@@ -2555,7 +2555,7 @@ fbq('track', "PageView");
                 <div class="title-text" data-edit="true" data-selector=".title-text"><strong><span class="fsize15">TEL.</span></strong></div>
                 <div data-edit="true" class="left" ><div><span  class="fsize13">​</span><span  class="fsize13">P. 010-4845-3065</span></div></div>
                 <div class="title-text" data-edit="true" data-selector=".title-text"><strong><span class="fsize15">E-Mail.</span></strong></div>
-                <div data-edit="true" class="email-mgbt left"><span class="fsize13">thebonlife@naver.com</span></div>
+                <div data-edit="true" class="email-mgbt left"><span class="fsize13"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="deaab6bbbcb1b0b2b7b8bb9eb0bfa8bbacf0bdb1b3">[email&#160;protected]</a></span></div>
                 <div class="title-text" data-edit="true" data-selector=".title-text"><strong><span class="fsize15">Address</span></strong></div>
                 <div data-edit="true" class="left"><span class="fsize13">‌경기 화성시 향남읍 만년로 151번길 44-30</span></div>
             </div>
@@ -2649,7 +2649,7 @@ fbq('track', "PageView");
         </div>
     </div>
 </div>
-<script id="js_0"></script><script id="js_1"></script><script id="js_2"></script><script id="js_3"></script><script id="js_4"></script><script id="js_5"></script><script id="js_6"></script><script id="js_7"></script><script id="js_8"></script><script id="js_9"></script><script id="js_10"></script><script id="js_11"></script><script id="js_12"></script><script id="js_13"></script><script id="js_14"></script><script id="js_15"></script><script id="js_16"></script><script id="js_17"></script><script id="js_18"></script><script id="js_19"></script><script id="js_20"></script><script id="js_21"></script><script id="js_22"></script><script id="js_23"></script><script id="js_24"></script><script id="js_25"></script><script id="js_26"></script><script id="js_27"></script><script id="js_28"></script><script id="js_29"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script id="js_0"></script><script id="js_1"></script><script id="js_2"></script><script id="js_3"></script><script id="js_4"></script><script id="js_5"></script><script id="js_6"></script><script id="js_7"></script><script id="js_8"></script><script id="js_9"></script><script id="js_10"></script><script id="js_11"></script><script id="js_12"></script><script id="js_13"></script><script id="js_14"></script><script id="js_15"></script><script id="js_16"></script><script id="js_17"></script><script id="js_18"></script><script id="js_19"></script><script id="js_20"></script><script id="js_21"></script><script id="js_22"></script><script id="js_23"></script><script id="js_24"></script><script id="js_25"></script><script id="js_26"></script><script id="js_27"></script><script id="js_28"></script><script id="js_29"></script>
 </div>
 <div id="goto-top" class="goto-top"><i class="fa fa-angle-up"></i></div>
 <div class="gallery-frame"></div>
@@ -2821,6 +2821,25 @@ function initSwiper() {
 
 	log_analytics('hoobis2','','new');	
 	
+</script>
+<!-- CF Pages Nav Fix -->
+<script>
+(function(){
+  document.addEventListener("click", function(e) {
+    var el = e.target;
+    while (el && el.tagName !== "A") el = el.parentElement;
+    if (!el) return;
+    var userLink = el.getAttribute("data-user-link");
+    var href = el.getAttribute("href");
+    if (userLink && userLink !== "") {
+      e.preventDefault();
+      e.stopPropagation();
+      e.stopImmediatePropagation();
+      window.location.href = href || ("/" + userLink.replace(/ /g, "-"));
+      return false;
+    }
+  }, true);
+})();
 </script>
 </body>
 </html>

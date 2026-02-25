@@ -549,5 +549,24 @@ function initSwiper() {
 	log_analytics('hoobis2','','new');	
 	
 </script>
+<!-- CF Pages Nav Fix -->
+<script>
+(function(){
+  document.addEventListener("click", function(e) {
+    var el = e.target;
+    while (el && el.tagName !== "A") el = el.parentElement;
+    if (!el) return;
+    var userLink = el.getAttribute("data-user-link");
+    var href = el.getAttribute("href");
+    if (userLink && userLink !== "") {
+      e.preventDefault();
+      e.stopPropagation();
+      e.stopImmediatePropagation();
+      window.location.href = href || ("/" + userLink.replace(/ /g, "-"));
+      return false;
+    }
+  }, true);
+})();
+</script>
 </body>
 </html>
